@@ -1,0 +1,142 @@
+
+
+
+main .mainImage{
+    margin-top: 10px;
+    background-image: -webkit-linear-gradient(right,rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url("../images/animes/toBeHeroX.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+}
+
+section h1{
+    padding-top: 30px;
+    font-size: 5em;
+    color: #ffdbdb;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+section h2{
+    font-size: 2em;
+    color: #ffffff;
+    margin-right: 1500px;
+    margin-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(#f3001e, #f34141);
+    color: white;
+    border-radius: 50px;
+    padding: 20px 80px;
+    margin-left: 1650px;
+    margin-top: 20px;
+}
+
+.popular{
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+}
+
+h3{
+    border-bottom: 4px double gray;
+}
+
+h4{
+    margin-left: 25px;
+}
+
+.popular div img{
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.reviews{
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 50px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+
+.stars span{
+    color: #d5ba4e;
+}
+
+strong{
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.reviewAnime{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.popularReview{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+}
+
+.popularAnime{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.popularImg{
+    display: flex;
+    flex-direction: row;
+}
+
+.popularAnime .popularImg img{
+    min-width: 125px;
+    min-height: 175px;
+    max-width: 125px;
+    max-height: 175px;
+}
+
+
+.popularReview div img{
+    min-width: 150px;
+    min-height: 200px;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+.personalReview{
+    background: #2b2b2b;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.paragaphAlign{
+    text-align: center;
+    margin: auto;
+}
+
+.paragraphReview{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}

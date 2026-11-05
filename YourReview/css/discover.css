@@ -1,0 +1,39 @@
+.conteneur{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    justify-content: space-between;
+}
+
+.box{
+    margin-bottom: 10px;
+}
+
+.box img{
+    min-height: 350px;
+    max-height: 350px;
+    max-width: 250px;
+    min-width: 250px;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    padding:2px;
+}
+
+.box img:hover{
+    transform: translateY(-10px);
+    transition: transform 0.2s ease;
+    box-shadow: 0px 0px 9px red;
+}
+
+
+
+
+div p{
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+    bottom: 12px;
+}
+
+.box:hover{
+    color: red;
+}
